@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::any('/',function (){
     return [
         'code'=>400,
-        'messages'=>'Bad Request !',
+        'messages'=>'Bad Request',
         'data'=>[]
     ];
 });
