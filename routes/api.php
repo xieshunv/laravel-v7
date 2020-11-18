@@ -23,5 +23,6 @@ Route::any('/',function (){
 
 Route::group(['middleware' => [],'namespace' => 'Api'], function ($route) {
     $route->get('/bar/','FooController@bar');
+    $route->get('/list/','UserController@index');
 });
 
